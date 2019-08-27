@@ -62,7 +62,7 @@ describe('<HomePage />', () => {
       it('should dispatch changeUsername when called', () => {
         const dispatch = jest.fn();
         const result = mapDispatchToProps(dispatch);
-        const username = 'flexdinesh';
+        const username = 'dtavana';
         result.onChangeUsername({ target: { value: username } });
         expect(dispatch).toHaveBeenCalledWith(changeUsername(username));
       });

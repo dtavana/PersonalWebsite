@@ -15,7 +15,7 @@ describe('selectHome', () => {
 describe('makeSelectUsername', () => {
   const usernameSelector = makeSelectUsername();
   it('should select the username', () => {
-    const username = 'flexdinesh';
+    const username = 'dtavana';
     const mockedState = {
       home: {
         username,

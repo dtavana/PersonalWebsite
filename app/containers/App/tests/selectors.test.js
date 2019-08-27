@@ -17,19 +17,6 @@ describe('selectGlobal', () => {
   });
 });
 
-describe('makeSelectCurrentUser', () => {
-  const currentUserSelector = makeSelectCurrentUser();
-  it('should select the current user', () => {
-    const username = 'flexdinesh';
-    const mockedState = {
-      global: {
-        currentUser: username,
-      },
-    };
-    expect(currentUserSelector(mockedState)).toEqual(username);
-  });
-});
-
 describe('makeSelectLoading', () => {
   const loadingSelector = makeSelectLoading();
   it('should select the loading', () => {

@@ -1,13 +1,13 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "personal-website",
   "version": "1.0.0",
   "description": "A minimal react-redux boilerplate with all the best practices",
   "repository": {
     "type": "git",
-    "url": "git://github.com/flexdinesh/react-redux-boilerplate.git"
+    "url": "git://github.com/dtavana/PersonalWebsite.git"
   },
   "license": "MIT",
-  "author": "Dinesh Pandiyan",
+  "author": "Darian Tavana",
   "scripts": {
     "prebuild": "npm run build:clean",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.babel.js --color -p --progress --hide-modules --display-optimization-bailout",

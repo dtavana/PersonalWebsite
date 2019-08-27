@@ -15,7 +15,7 @@ describe('homeReducer', () => {
   });
 
   it('should handle the changeUsername action correctly', () => {
-    const fixture = 'flexdinesh';
+    const fixture = 'dtavana';
     const expectedResult = { ...state, username: fixture };
 
     expect(homeReducer(state, changeUsername(fixture))).toEqual(expectedResult);

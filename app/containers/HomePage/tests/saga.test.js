@@ -9,7 +9,7 @@ import { reposLoaded, repoLoadingError } from 'containers/App/actions';
 
 import githubData, { getRepos } from '../saga';
 
-const username = 'flexdinesh';
+const username = 'dtavana';
 
 /* eslint-disable redux-saga/yield-effects */
 describe('getRepos Saga', () => {
